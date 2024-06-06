@@ -53,7 +53,7 @@ describe('Unit Tests', function() {
                 
                 return messagePayload;
             };
-            var expectedPayload = 'eJzjamHi4izOLy1KTtXNTBGK5mLPyC8uATFFdm6e97ZBfLqW665Nbkkbdic+E771WoJByYJLhosvJz85MScepDQvMTdViEuKozg/NxXE5pLg4gSJx5dUFqQKcUtxJlaVFqXGp5XmSfkIHtV4Hc0ABLLcQEKJO9/YzLQ8NSkjPz/biCM3tbg4MT3V0Io/qzg/Tx+sTQ+kwknEEcR2TC7JLEt1ySxKTS7JL6okzjQjIk0DAFuCVYc=';
+            var expectedPayload = 'eJzjamHi4izOLy1KTtXNTBGK5mLPyC8uATFFdm6e97ZBfLqW665Nbkkbdic+E771WoJByYJLhosvJz85MScepDQvMTdViEuKozg/NxXE5pLg4gSJx5dUFqQKcUtxJlaVFqXGp5XmSfkIHtV4Hc3AwMAgy83AwKDEnW9sZlqempSRn59txJGbWlycmJ5qaMWfVZyfpw/WpgdS4STiCGI7JpdklqW6ZBalJpfkF1USZ5oRkaYBAFuCVYc=';
             const params = {
                     hostId: 'host-id',
                     sourceId: 'source-id',
@@ -97,7 +97,7 @@ describe('Unit Tests', function() {
                 
                 return messagePayload;
             };
-            let expectedPayload = 'eJzjesDExVmcX1qUnKqbmSIUzcWekV9cAmKK7Nw8722D+HQt112b3JI27E58JnzrtQSDkgWXDBdfTn5yYk48SGleYm6qEJcUR3F+biqIzSXBxQkSjy+pLEgV4pbiTKwqLUqNTyvNk6oSPKrxOpoBCGS5gYQSd76xmWl5alJGfn62kVm1Um5qcXFieqqSFYxlqKSjVFCUXwAUKUvMKQXz0zJzSlKLgCIFicXFSrVW/FnF+Xn6YEv0QOY5iTiC2I7JJZllqS6ZRanJJflFlaTbnYhmdyLZdgMAFp90iA==';
+            let expectedPayload = 'eJzjesDExVmcX1qUnKqbmSIUzcWekV9cAmKK7Nw8722D+HQt112b3JI27E58JnzrtQSDkgWXDBdfTn5yYk48SGleYm6qEJcUR3F+biqIzSXBxQkSjy+pLEgV4pbiTKwqLUqNTyvNk6oSPKrxOpqBgYFBlpuBgUGJO9/YzLQ8NSkjPz/byKxaKTe1uDgxPVXJCsYyVNJRKijKL1CyUipLzCkF89Myc0pSi5SslAoSi4uVaq34s4rz8/TBluiBzHMScQSxHZNLMstSXTKLUpNL8osqSbc7Ec3uRLLtBgAWn3SI';
             const params = {
                     hostId: 'host-id',
                     sourceId: 'source-id',
@@ -142,7 +142,7 @@ describe('Unit Tests', function() {
                 
                 return messagePayload;
             };
-            let expectedPayload = 'eJzjamHi4izOLy1KTtXNTBGK5mLPyC8uATFFdm6e97ZBfLqW665Nbkkbdic+E771WoJByYJLhosvJz85MScepDQvMTdViEuKozg/NxXE5pLg4gSJx5dUFqQKcUtxJlaVFqXGp5XmSfkIHtV4Hc0ABLLcQEKJO9/YzLQ8NSkjPz/biCM3tbg4MT3V0Io/qzg/Tx+sTQ+kwknEEcR2TC7JLEt1ySxKTS7JL6okzjQjIk0DAFuCVYc=';
+            let expectedPayload = 'eJzjamHi4izOLy1KTtXNTBGK5mLPyC8uATFFdm6e97ZBfLqW665Nbkkbdic+E771WoJByYJLhosvJz85MScepDQvMTdViEuKozg/NxXE5pLg4gSJx5dUFqQKcUtxJlaVFqXGp5XmSfkIHtV4Hc3AwMAgy83AwKDEnW9sZlqempSRn59txJGbWlycmJ5qaMWfVZyfpw/WpgdS4STiCGI7JpdklqW6ZBalJpfkF1USZ5oRkaYBAFuCVYc=';
             const params = {
                     hostId: 'host-id',
                     sourceId: 'source-id',
