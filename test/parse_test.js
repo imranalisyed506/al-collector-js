@@ -135,6 +135,13 @@ describe('Common parse functions unit tests.', function() {
         assert.deepEqual(privParseTs('foo'), { sec: 1234567, usec: null });
         done();
     });
+
+    it('timestamp input in milliseconds', function (done) {
+        let parseWire1 = rewire('../parse');
+        var privParseTs = parseWire1.__get__('parseTs');
+        assert.deepEqual(privParseTs(1721143248000), { sec: 1721143248, usec: null });
+        done();
+    });
     
     it('iteratePropPaths zero key', function(done) {
         const testPaths = [
