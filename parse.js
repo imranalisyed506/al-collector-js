@@ -30,8 +30,8 @@ var defaultTs = function() {
     };
 };
 
-var parseTs = function(ts) {
-    var milli = Date.parse(ts);
+var parseTs = function (ts) {
+    var milli = typeof ts === 'number' ? ts : Date.parse(ts);
     if (isNaN(milli)) {
         return defaultTs();
     } else {
